@@ -167,9 +167,4 @@ public class TimerNodeInstance extends StateBasedNodeInstance implements EventLi
         toReturn.add(timerDescription);
         return toReturn;
     }
-
-    @Override
-    protected int getCronRepeatLimit() {
-        return 1;
-    }
 }
